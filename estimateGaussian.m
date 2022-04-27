@@ -10,7 +10,7 @@ function [mu sigma2] = estimateGaussian(X)
 % Useful variables
 [m, n] = size(X);
 
-% You should return these values correctly
+% Return these values correctly
 mu = zeros(n, 1);
 sigma2 = zeros(n, 1);
 
